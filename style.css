@@ -71,3 +71,80 @@ header .line p {
     text-decoration: none;     
     cursor: pointer;           
 }
+
+/* Ekran eni 768px dan kichik bo‘lsa (mobil qurilmalar) */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+    nav i {
+        font-size: 24px;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    header img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    header .line {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header .line p {
+        width: 100%;
+    }
+
+    header .header_button {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .call-button {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+/* Ekran eni 480px dan kichik bo‘lsa (kichik mobil qurilmalar) */
+@media (max-width: 480px) {
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header p {
+        font-size: 14px;
+        margin: 30px 0;
+    }
+
+    .call-button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
