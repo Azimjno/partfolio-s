@@ -61,7 +61,7 @@ header .line p {
     background-color: #fff;
 }
 
-/* .telefon_raqam {
+.telefon_raqam {
     background-color: #28a745; 
     color: white;              
     padding: 10px 30px;        
@@ -70,4 +70,4 @@ header .line p {
     border-radius: 5px;        
     text-decoration: none;     
     cursor: pointer;           
-}*/
+}
